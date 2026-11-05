@@ -8,10 +8,64 @@ Playlist::Playlist(const std::string& name)
 }
 // TODO: Fix memory leaks!
 // Students must fix this in Phase 1
+
 Playlist::~Playlist() {
     #ifdef DEBUG
     std::cout << "Destroying playlist: " << playlist_name << std::endl;
     #endif
+    PlaylistNode* current=head;
+    while(current){
+        PlaylistNode* nextN=current->next;
+        delete current->track;
+        delete current;
+        current=nextN;
+    }
+}
+
+Playlist::Playlist(const Playlist &other):head(nullptr),playlist_name(other.playlist_name)
+,track_count(other.track_count)
+{
+   PlaylistNode* curr=other.head;
+   if(curr){
+    this->head= new PlaylistNode(curr->track->clone().release());
+   }
+   PlaylistNode* currTHIS=this->head;
+   curr=curr->next;
+   while(curr){
+    PlaylistNode* new_node = new PlaylistNode(curr->track->clone().release());
+    currTHIS->next =new_node ;
+    currTHIS=new_node;
+    curr=curr->next;
+   }
+   currTHIS=nullptr;
+}
+
+Playlist &Playlist::operator=(const Playlist &other)
+{
+    //cleaning
+     PlaylistNode* current=head;
+    while(current){
+        PlaylistNode* nextN=current->next;
+        delete current->track;
+        delete current;
+        current=nextN;
+    }
+    //deap copy
+    PlaylistNode* curr=other.head;
+   if(curr){
+    this->head= new PlaylistNode(curr->track->clone().release());
+   }
+   PlaylistNode* currTHIS=this->head;
+   curr=curr->next;
+   while(curr){
+    PlaylistNode* new_node = new PlaylistNode(curr->track->clone().release());
+    currTHIS->next =new_node ;
+    currTHIS=new_node;
+    curr=curr->next;
+   }
+   currTHIS=nullptr;
+
+   return *this;
 }
 
 void Playlist::add_track(AudioTrack* track) {
@@ -27,7 +81,6 @@ void Playlist::add_track(AudioTrack* track) {
     new_node->next = head;
     head = new_node;
     track_count++;
-
     std::cout << "Added '" << track->get_title() << "' to playlist '" 
               << playlist_name << "'" << std::endl;
 }
@@ -51,7 +104,10 @@ void Playlist::remove_track(const std::string& title) {
         }
 
         track_count--;
+        delete current->track;
+        delete current;
         std::cout << "Removed '" << title << "' from playlist" << std::endl;
+        
 
     } else {
         std::cout << "Track '" << title << "' not found in playlist" << std::endl;

@@ -96,6 +96,8 @@ public:
      * This method should be used only once.
      */
     void set_capacity(size_t capacity);
+
+    
 private:
     /**
      * @brief Find slot containing specific track

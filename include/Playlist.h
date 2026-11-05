@@ -40,6 +40,14 @@ public:
      */
     ~Playlist();
 
+    //copy constructor
+    Playlist(const Playlist& other);
+
+
+    Playlist& operator=(const Playlist& other);
+
+
+
     /**
      * Add a track to the playlist
      * @param track Pointer to AudioTrack to add
@@ -63,6 +71,7 @@ public:
      */
     int get_track_count() const { return track_count; }
     const std::string& get_name() const { return playlist_name; }
+    PlaylistNode* get_head() const{return head;}
 
     /**
      * @param title Title of the track to find

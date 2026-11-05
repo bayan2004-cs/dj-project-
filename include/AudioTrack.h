@@ -101,6 +101,8 @@ public:
      * Function to get a copy of the waveform data
      */
     void get_waveform_copy(double* buffer, size_t buffer_size) const;
+
+    void setBpm(int newBpm);
     
     // ========== ACCESSOR FUNCTIONS ==========
     std::string get_title() const { return title; }

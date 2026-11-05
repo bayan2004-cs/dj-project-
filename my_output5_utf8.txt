@@ -1,0 +1,1263 @@
+﻿
+============= RUNNING INTERACTIVE SOFTWARE =============
+Created playlist: 
+[MixingEngineService] Initialized with 2 empty decks.
+DJ Session System initialized: Interactive Session
+=== DJ Controller System ===
+Starting interactive DJ session...
+Loading configuration from: bin/dj_config.txt
+[WARNING] Unknown config key 'staging_area' at line 47
+Parsed config file: 18 tracks found, 5 playlists found
+Configuration loaded successfully.
+BPM Tolerance: 3 BPM
+Auto Sync: disabled
+Cache Size: 10 slots
+MP3Track created: 320 kbps
+MP3Track created: 192 kbps
+MP3Track created: 320 kbps
+MP3Track created: 320 kbps
+MP3Track created: 320 kbps
+MP3Track created: 192 kbps
+MP3Track created: 320 kbps
+MP3Track created: 320 kbps
+MP3Track created: 320 kbps
+WAVTrack created: 44100Hz/16bit
+WAVTrack created: 96000Hz/24bit
+WAVTrack created: 48000Hz/16bit
+WAVTrack created: 44100Hz/16bit
+WAVTrack created: 44100Hz/16bit
+WAVTrack created: 96000Hz/24bit
+WAVTrack created: 44100Hz/16bit
+WAVTrack created: 44100Hz/16bit
+MP3Track created: 192 kbps
+[INFO] Track library built: 18 tracks loaded
+
+Starting DJ performance simulation...
+BPM Tolerance: 3 BPM
+Auto Sync: disabled
+Cache Capacity: 10 slots (LRU policy)
+
+--- Processing Tracks ---
+TODO: Implement the DJ performance simulation workflow here.
+[System] Loading playlist: chill_out_lounge
+[INFO] loading playlist: chill_out_lounge
+Created playlist: chill_out_lounge
+[MP3Track::load] Loading MP3: "Low Fidelity" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Low Fidelity"
+  ΓåÆEstimated beats:255  ΓåÆCompression precision factor:1
+
+Added 'Low Fidelity' to playlist 'chill_out_lounge'
+[WAVTrack::load] loading WAV:"Atmosphere" at 48000Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 115200000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Atmosphere"
+  ΓåÆ Estimated beats:900  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Atmosphere' to playlist 'chill_out_lounge'
+[MP3Track::load] Loading MP3: "Midnight Drive" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Midnight Drive"
+  ΓåÆEstimated beats:449  ΓåÆCompression precision factor:1
+
+Added 'Midnight Drive' to playlist 'chill_out_lounge'
+[MP3Track::load] Loading MP3: "Dusty Roads" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Dusty Roads"
+  ΓåÆEstimated beats:300  ΓåÆCompression precision factor:0.6
+
+Added 'Dusty Roads' to playlist 'chill_out_lounge'
+[WAVTrack::load] loading WAV:"Ocean Front" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 54684000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Ocean Front"
+  ΓåÆ Estimated beats:594  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Ocean Front' to playlist 'chill_out_lounge'
+[INFO] Playlist Loaded:chill_out_lounge(0 tracks)
+
+-- Processing: Ocean Front --
+[System] Loading track 'Ocean Front' to controller...
+[WAVTrack::load] loading WAV:"Ocean Front" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 54684000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Ocean Front"
+  ΓåÆ Estimated beats:594  ΓåÆ Precision factor: 1 (uncompressed audio)
+
+=== Cache Status ===
+[LRUCache] Status: 1/10 slots used
+  Slot 0: Ocean Front (last access: 1)
+  Slot 1: [EMPTY]
+  Slot 2: [EMPTY]
+  Slot 3: [EMPTY]
+  Slot 4: [EMPTY]
+  Slot 5: [EMPTY]
+  Slot 6: [EMPTY]
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Ocean Front
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[WAVTrack::load] loading WAV:"Ocean Front" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 54684000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Ocean Front"
+  ΓåÆ Estimated beats:594  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Ocean Front' is now loaded on deck 0
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Ocean Front
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Dusty Roads --
+[System] Loading track 'Dusty Roads' to controller...
+[MP3Track::load] Loading MP3: "Dusty Roads" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Dusty Roads"
+  ΓåÆEstimated beats:300  ΓåÆCompression precision factor:0.6
+
+
+=== Cache Status ===
+[LRUCache] Status: 2/10 slots used
+  Slot 0: Ocean Front (last access: 2)
+  Slot 1: Dusty Roads (last access: 3)
+  Slot 2: [EMPTY]
+  Slot 3: [EMPTY]
+  Slot 4: [EMPTY]
+  Slot 5: [EMPTY]
+  Slot 6: [EMPTY]
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Dusty Roads
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "Dusty Roads" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Dusty Roads"
+  ΓåÆEstimated beats:300  ΓåÆCompression precision factor:0.6
+
+[Load Complete] 'Dusty Roads' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Ocean Front)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Dusty Roads
+Active Deck: 1
+===================
+
+-- Processing: Midnight Drive --
+[System] Loading track 'Midnight Drive' to controller...
+[MP3Track::load] Loading MP3: "Midnight Drive" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Midnight Drive"
+  ΓåÆEstimated beats:449  ΓåÆCompression precision factor:1
+
+
+=== Cache Status ===
+[LRUCache] Status: 3/10 slots used
+  Slot 0: Ocean Front (last access: 2)
+  Slot 1: Dusty Roads (last access: 4)
+  Slot 2: Midnight Drive (last access: 5)
+  Slot 3: [EMPTY]
+  Slot 4: [EMPTY]
+  Slot 5: [EMPTY]
+  Slot 6: [EMPTY]
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Midnight Drive
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Midnight Drive" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Midnight Drive"
+  ΓåÆEstimated beats:449  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Midnight Drive' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Dusty Roads)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Midnight Drive
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Atmosphere --
+[System] Loading track 'Atmosphere' to controller...
+[WAVTrack::load] loading WAV:"Atmosphere" at 48000Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 115200000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Atmosphere"
+  ΓåÆ Estimated beats:900  ΓåÆ Precision factor: 1 (uncompressed audio)
+
+=== Cache Status ===
+[LRUCache] Status: 4/10 slots used
+  Slot 0: Ocean Front (last access: 2)
+  Slot 1: Dusty Roads (last access: 4)
+  Slot 2: Midnight Drive (last access: 6)
+  Slot 3: Atmosphere (last access: 7)
+  Slot 4: [EMPTY]
+  Slot 5: [EMPTY]
+  Slot 6: [EMPTY]
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Atmosphere
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"Atmosphere" at 48000Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 115200000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Atmosphere"
+  ΓåÆ Estimated beats:900  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Atmosphere' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Midnight Drive)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Atmosphere
+Active Deck: 1
+===================
+
+-- Processing: Low Fidelity --
+[System] Loading track 'Low Fidelity' to controller...
+[MP3Track::load] Loading MP3: "Low Fidelity" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Low Fidelity"
+  ΓåÆEstimated beats:255  ΓåÆCompression precision factor:1
+
+
+=== Cache Status ===
+[LRUCache] Status: 5/10 slots used
+  Slot 0: Ocean Front (last access: 2)
+  Slot 1: Dusty Roads (last access: 4)
+  Slot 2: Midnight Drive (last access: 6)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 9)
+  Slot 5: [EMPTY]
+  Slot 6: [EMPTY]
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Low Fidelity
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Low Fidelity" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Low Fidelity"
+  ΓåÆEstimated beats:255  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Low Fidelity' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Atmosphere)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Low Fidelity
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+=== DJ Session Summary ===
+Session: Interactive Session
+Tracks processed: 5
+Cache hits: 0
+Cache misses: 5
+Cache evictions: 0
+Deck A loads: 3
+Deck B loads: 2
+Transitions: 5
+Errors: 0
+=== Session Complete ===
+[System] Loading playlist: main_stage
+[INFO] loading playlist: main_stage
+Created playlist: main_stage
+[MP3Track::load] Loading MP3: "Solaris" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Solaris"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:1
+
+Added 'Solaris' to playlist 'main_stage'
+[MP3Track::load] Loading MP3: "City Lights (Remix)" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "City Lights (Remix)"
+  ΓåÆEstimated beats:583  ΓåÆCompression precision factor:1
+
+Added 'City Lights (Remix)' to playlist 'main_stage'
+[MP3Track::load] Loading MP3: "Red Shift" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Red Shift"
+  ΓåÆEstimated beats:640  ΓåÆCompression precision factor:0.6
+
+Added 'Red Shift' to playlist 'main_stage'
+[MP3Track::load] Loading MP3: "Floor Filler" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Floor Filler"
+  ΓåÆEstimated beats:455  ΓåÆCompression precision factor:1
+
+Added 'Floor Filler' to playlist 'main_stage'
+[WAVTrack::load] loading WAV:"Riser" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 21168000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Riser"
+  ΓåÆ Estimated beats:256  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Riser' to playlist 'main_stage'
+[WAVTrack::load] loading WAV:"The Core" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 259200000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "The Core"
+  ΓåÆ Estimated beats:1012  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'The Core' to playlist 'main_stage'
+[WAVTrack::load] loading WAV:"Hard Beat" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 58212000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Hard Beat"
+  ΓåÆ Estimated beats:770  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Hard Beat' to playlist 'main_stage'
+[WAVTrack::load] loading WAV:"Breakdown" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 149760000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Breakdown"
+  ΓåÆ Estimated beats:541  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Breakdown' to playlist 'main_stage'
+[INFO] Playlist Loaded:main_stage(0 tracks)
+
+-- Processing: Breakdown --
+[System] Loading track 'Breakdown' to controller...
+[WAVTrack::load] loading WAV:"Breakdown" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 149760000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Breakdown"
+  ΓåÆ Estimated beats:541  ΓåÆ Precision factor: 1 (uncompressed audio)
+
+=== Cache Status ===
+[LRUCache] Status: 6/10 slots used
+  Slot 0: Ocean Front (last access: 2)
+  Slot 1: Dusty Roads (last access: 4)
+  Slot 2: Midnight Drive (last access: 6)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 11)
+  Slot 6: [EMPTY]
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Breakdown
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"Breakdown" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 149760000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Breakdown"
+  ΓåÆ Estimated beats:541  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Breakdown' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Low Fidelity)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Breakdown
+Active Deck: 1
+===================
+
+-- Processing: Hard Beat --
+[System] Loading track 'Hard Beat' to controller...
+[WAVTrack::load] loading WAV:"Hard Beat" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 58212000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Hard Beat"
+  ΓåÆ Estimated beats:770  ΓåÆ Precision factor: 1 (uncompressed audio)
+
+=== Cache Status ===
+[LRUCache] Status: 7/10 slots used
+  Slot 0: Ocean Front (last access: 2)
+  Slot 1: Dusty Roads (last access: 4)
+  Slot 2: Midnight Drive (last access: 6)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 13)
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Hard Beat
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[WAVTrack::load] loading WAV:"Hard Beat" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 58212000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Hard Beat"
+  ΓåÆ Estimated beats:770  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Hard Beat' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Breakdown)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Hard Beat
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: The Core --
+[System] Loading track 'The Core' to controller...
+[WAVTrack::load] loading WAV:"The Core" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 259200000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "The Core"
+  ΓåÆ Estimated beats:1012  ΓåÆ Precision factor: 1 (uncompressed audio)
+
+=== Cache Status ===
+[LRUCache] Status: 8/10 slots used
+  Slot 0: Ocean Front (last access: 2)
+  Slot 1: Dusty Roads (last access: 4)
+  Slot 2: Midnight Drive (last access: 6)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 14)
+  Slot 7: The Core (last access: 15)
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: The Core
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"The Core" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 259200000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "The Core"
+  ΓåÆ Estimated beats:1012  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'The Core' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Hard Beat)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: The Core
+Active Deck: 1
+===================
+
+-- Processing: Riser --
+[System] Loading track 'Riser' to controller...
+[WAVTrack::load] loading WAV:"Riser" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 21168000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Riser"
+  ΓåÆ Estimated beats:256  ΓåÆ Precision factor: 1 (uncompressed audio)
+
+=== Cache Status ===
+[LRUCache] Status: 9/10 slots used
+  Slot 0: Ocean Front (last access: 2)
+  Slot 1: Dusty Roads (last access: 4)
+  Slot 2: Midnight Drive (last access: 6)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 14)
+  Slot 7: The Core (last access: 16)
+  Slot 8: Riser (last access: 17)
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Riser
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[WAVTrack::load] loading WAV:"Riser" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 21168000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Riser"
+  ΓåÆ Estimated beats:256  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Riser' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (The Core)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Riser
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Floor Filler --
+[System] Loading track 'Floor Filler' to controller...
+[MP3Track::load] Loading MP3: "Floor Filler" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Floor Filler"
+  ΓåÆEstimated beats:455  ΓåÆCompression precision factor:1
+
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Ocean Front (last access: 2)
+  Slot 1: Dusty Roads (last access: 4)
+  Slot 2: Midnight Drive (last access: 6)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 14)
+  Slot 7: The Core (last access: 16)
+  Slot 8: Riser (last access: 18)
+  Slot 9: Floor Filler (last access: 19)
+====================
+[System] Delegating track transfer to MixingEngineService for: Floor Filler
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "Floor Filler" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Floor Filler"
+  ΓåÆEstimated beats:455  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Floor Filler' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Riser)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Floor Filler
+Active Deck: 1
+===================
+
+-- Processing: Red Shift --
+[System] Loading track 'Red Shift' to controller...
+[MP3Track::load] Loading MP3: "Red Shift" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Red Shift"
+  ΓåÆEstimated beats:640  ΓåÆCompression precision factor:0.6
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 21)
+  Slot 1: Dusty Roads (last access: 4)
+  Slot 2: Midnight Drive (last access: 6)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 14)
+  Slot 7: The Core (last access: 16)
+  Slot 8: Riser (last access: 18)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Red Shift
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Red Shift" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Red Shift"
+  ΓåÆEstimated beats:640  ΓåÆCompression precision factor:0.6
+
+[Load Complete] 'Red Shift' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Floor Filler)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Red Shift
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: City Lights (Remix) --
+[System] Loading track 'City Lights (Remix)' to controller...
+[MP3Track::load] Loading MP3: "City Lights (Remix)" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "City Lights (Remix)"
+  ΓåÆEstimated beats:583  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 23)
+  Slot 2: Midnight Drive (last access: 6)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 14)
+  Slot 7: The Core (last access: 16)
+  Slot 8: Riser (last access: 18)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: City Lights (Remix)
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "City Lights (Remix)" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "City Lights (Remix)"
+  ΓåÆEstimated beats:583  ΓåÆCompression precision factor:1
+
+[Load Complete] 'City Lights (Remix)' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Red Shift)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: City Lights (Remix)
+Active Deck: 1
+===================
+
+-- Processing: Solaris --
+[System] Loading track 'Solaris' to controller...
+[MP3Track::load] Loading MP3: "Solaris" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Solaris"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 24)
+  Slot 2: Solaris (last access: 25)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 14)
+  Slot 7: The Core (last access: 16)
+  Slot 8: Riser (last access: 18)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Solaris
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Solaris" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Solaris"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Solaris' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (City Lights (Remix))
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Solaris
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+=== DJ Session Summary ===
+Session: Interactive Session
+Tracks processed: 13
+Cache hits: 0
+Cache misses: 13
+Cache evictions: 3
+Deck A loads: 7
+Deck B loads: 6
+Transitions: 13
+Errors: 0
+=== Session Complete ===
+[System] Loading playlist: repeat_test
+[INFO] loading playlist: repeat_test
+Created playlist: repeat_test
+[MP3Track::load] Loading MP3: "Solaris" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Solaris"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:1
+
+Added 'Solaris' to playlist 'repeat_test'
+[MP3Track::load] Loading MP3: "Solaris" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Solaris"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:1
+
+Added 'Solaris' to playlist 'repeat_test'
+[WAVTrack::load] loading WAV:"Riser" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 21168000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Riser"
+  ΓåÆ Estimated beats:256  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Riser' to playlist 'repeat_test'
+[MP3Track::load] Loading MP3: "City Lights (Remix)" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "City Lights (Remix)"
+  ΓåÆEstimated beats:583  ΓåÆCompression precision factor:1
+
+Added 'City Lights (Remix)' to playlist 'repeat_test'
+[MP3Track::load] Loading MP3: "City Lights (Remix)" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "City Lights (Remix)"
+  ΓåÆEstimated beats:583  ΓåÆCompression precision factor:1
+
+Added 'City Lights (Remix)' to playlist 'repeat_test'
+[INFO] Playlist Loaded:repeat_test(0 tracks)
+
+-- Processing: City Lights (Remix) --
+[System] Loading track 'City Lights (Remix)' to controller...
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 27)
+  Slot 2: Solaris (last access: 26)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 14)
+  Slot 7: The Core (last access: 16)
+  Slot 8: Riser (last access: 18)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: City Lights (Remix)
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "City Lights (Remix)" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "City Lights (Remix)"
+  ΓåÆEstimated beats:583  ΓåÆCompression precision factor:1
+
+[Load Complete] 'City Lights (Remix)' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Solaris)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: City Lights (Remix)
+Active Deck: 1
+===================
+
+-- Processing: City Lights (Remix) --
+[System] Loading track 'City Lights (Remix)' to controller...
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 29)
+  Slot 2: Solaris (last access: 26)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 14)
+  Slot 7: The Core (last access: 16)
+  Slot 8: Riser (last access: 18)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: City Lights (Remix)
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "City Lights (Remix)" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "City Lights (Remix)"
+  ΓåÆEstimated beats:583  ΓåÆCompression precision factor:1
+
+[Load Complete] 'City Lights (Remix)' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (City Lights (Remix))
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: City Lights (Remix)
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Riser --
+[System] Loading track 'Riser' to controller...
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 30)
+  Slot 2: Solaris (last access: 26)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 14)
+  Slot 7: The Core (last access: 16)
+  Slot 8: Riser (last access: 31)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Riser
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"Riser" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 21168000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Riser"
+  ΓåÆ Estimated beats:256  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Riser' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (City Lights (Remix))
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Riser
+Active Deck: 1
+===================
+
+-- Processing: Solaris --
+[System] Loading track 'Solaris' to controller...
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 30)
+  Slot 2: Solaris (last access: 33)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 14)
+  Slot 7: The Core (last access: 16)
+  Slot 8: Riser (last access: 32)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Solaris
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Solaris" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Solaris"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Solaris' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Riser)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Solaris
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Solaris --
+[System] Loading track 'Solaris' to controller...
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 30)
+  Slot 2: Solaris (last access: 35)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 14)
+  Slot 7: The Core (last access: 16)
+  Slot 8: Riser (last access: 32)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Solaris
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "Solaris" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Solaris"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Solaris' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Solaris)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Solaris
+Active Deck: 1
+===================
+
+=== DJ Session Summary ===
+Session: Interactive Session
+Tracks processed: 18
+Cache hits: 5
+Cache misses: 13
+Cache evictions: 3
+Deck A loads: 9
+Deck B loads: 9
+Transitions: 18
+Errors: 0
+=== Session Complete ===
+[System] Loading playlist: techno_bunker
+[INFO] loading playlist: techno_bunker
+Created playlist: techno_bunker
+[WAVTrack::load] loading WAV:"The Core" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 259200000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "The Core"
+  ΓåÆ Estimated beats:1012  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'The Core' to playlist 'techno_bunker'
+[WAVTrack::load] loading WAV:"Hard Beat" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 58212000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Hard Beat"
+  ΓåÆ Estimated beats:770  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Hard Beat' to playlist 'techno_bunker'
+[WAVTrack::load] loading WAV:"The Core" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 259200000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "The Core"
+  ΓåÆ Estimated beats:1012  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'The Core' to playlist 'techno_bunker'
+[INFO] Playlist Loaded:techno_bunker(0 tracks)
+
+-- Processing: The Core --
+[System] Loading track 'The Core' to controller...
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 30)
+  Slot 2: Solaris (last access: 36)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 14)
+  Slot 7: The Core (last access: 37)
+  Slot 8: Riser (last access: 32)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: The Core
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[WAVTrack::load] loading WAV:"The Core" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 259200000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "The Core"
+  ΓåÆ Estimated beats:1012  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'The Core' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Solaris)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: The Core
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Hard Beat --
+[System] Loading track 'Hard Beat' to controller...
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 30)
+  Slot 2: Solaris (last access: 36)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 39)
+  Slot 7: The Core (last access: 38)
+  Slot 8: Riser (last access: 32)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Hard Beat
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"Hard Beat" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 58212000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Hard Beat"
+  ΓåÆ Estimated beats:770  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Hard Beat' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (The Core)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Hard Beat
+Active Deck: 1
+===================
+
+-- Processing: The Core --
+[System] Loading track 'The Core' to controller...
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 30)
+  Slot 2: Solaris (last access: 36)
+  Slot 3: Atmosphere (last access: 8)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 40)
+  Slot 7: The Core (last access: 41)
+  Slot 8: Riser (last access: 32)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: The Core
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[WAVTrack::load] loading WAV:"The Core" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 259200000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "The Core"
+  ΓåÆ Estimated beats:1012  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'The Core' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Hard Beat)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: The Core
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+=== DJ Session Summary ===
+Session: Interactive Session
+Tracks processed: 21
+Cache hits: 8
+Cache misses: 13
+Cache evictions: 3
+Deck A loads: 11
+Deck B loads: 10
+Transitions: 21
+Errors: 0
+=== Session Complete ===
+[System] Loading playlist: warmup_set
+[INFO] loading playlist: warmup_set
+Created playlist: warmup_set
+[MP3Track::load] Loading MP3: "Midnight Drive" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Midnight Drive"
+  ΓåÆEstimated beats:449  ΓåÆCompression precision factor:1
+
+Added 'Midnight Drive' to playlist 'warmup_set'
+[MP3Track::load] Loading MP3: "Low Fidelity" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Low Fidelity"
+  ΓåÆEstimated beats:255  ΓåÆCompression precision factor:1
+
+Added 'Low Fidelity' to playlist 'warmup_set'
+[MP3Track::load] Loading MP3: "Echo Chamber" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Echo Chamber"
+  ΓåÆEstimated beats:820  ΓåÆCompression precision factor:1
+
+Added 'Echo Chamber' to playlist 'warmup_set'
+[INFO] Playlist Loaded:warmup_set(0 tracks)
+
+-- Processing: Echo Chamber --
+[System] Loading track 'Echo Chamber' to controller...
+[MP3Track::load] Loading MP3: "Echo Chamber" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Echo Chamber"
+  ΓåÆEstimated beats:820  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 30)
+  Slot 2: Solaris (last access: 36)
+  Slot 3: Echo Chamber (last access: 43)
+  Slot 4: Low Fidelity (last access: 10)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 40)
+  Slot 7: The Core (last access: 42)
+  Slot 8: Riser (last access: 32)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Echo Chamber
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "Echo Chamber" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Echo Chamber"
+  ΓåÆEstimated beats:820  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Echo Chamber' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (The Core)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Echo Chamber
+Active Deck: 1
+===================
+
+-- Processing: Low Fidelity --
+[System] Loading track 'Low Fidelity' to controller...
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 30)
+  Slot 2: Solaris (last access: 36)
+  Slot 3: Echo Chamber (last access: 44)
+  Slot 4: Low Fidelity (last access: 45)
+  Slot 5: Breakdown (last access: 12)
+  Slot 6: Hard Beat (last access: 40)
+  Slot 7: The Core (last access: 42)
+  Slot 8: Riser (last access: 32)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Low Fidelity
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Low Fidelity" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Low Fidelity"
+  ΓåÆEstimated beats:255  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Low Fidelity' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Echo Chamber)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Low Fidelity
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Midnight Drive --
+[System] Loading track 'Midnight Drive' to controller...
+[MP3Track::load] Loading MP3: "Midnight Drive" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Midnight Drive"
+  ΓåÆEstimated beats:449  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Red Shift (last access: 22)
+  Slot 1: City Lights (Remix) (last access: 30)
+  Slot 2: Solaris (last access: 36)
+  Slot 3: Echo Chamber (last access: 44)
+  Slot 4: Low Fidelity (last access: 46)
+  Slot 5: Midnight Drive (last access: 47)
+  Slot 6: Hard Beat (last access: 40)
+  Slot 7: The Core (last access: 42)
+  Slot 8: Riser (last access: 32)
+  Slot 9: Floor Filler (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Midnight Drive
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "Midnight Drive" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Midnight Drive"
+  ΓåÆEstimated beats:449  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Midnight Drive' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Low Fidelity)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Midnight Drive
+Active Deck: 1
+===================
+
+=== DJ Session Summary ===
+Session: Interactive Session
+Tracks processed: 24
+Cache hits: 9
+Cache misses: 15
+Cache evictions: 5
+Deck A loads: 12
+Deck B loads: 12
+Transitions: 24
+Errors: 0
+=== Session Complete ===
+Session cancelled by user or all playlists played. 
+============= INTERACTIVE SESSION ENDED =============
+
+Shutting down DJ Session System: Interactive Session
+[MixingEngineService] Cleaning up decks...

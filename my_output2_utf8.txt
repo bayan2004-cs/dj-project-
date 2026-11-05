@@ -1,0 +1,1388 @@
+﻿
+============= RUNNING INTERACTIVE SOFTWARE =============
+Created playlist: 
+[MixingEngineService] Initialized with 2 empty decks.
+DJ Session System initialized: Interactive Session
+=== DJ Controller System ===
+Starting interactive DJ session...
+Loading configuration from: bin/dj_config.txt
+Parsed config file: 15 tracks found, 1 playlists found
+Configuration loaded successfully.
+BPM Tolerance: 5 BPM
+Auto Sync: disabled
+Cache Size: 10 slots
+MP3Track created: 320 kbps
+MP3Track created: 320 kbps
+WAVTrack created: 44100Hz/16bit
+WAVTrack created: 44100Hz/16bit
+MP3Track created: 192 kbps
+MP3Track created: 320 kbps
+WAVTrack created: 48000Hz/24bit
+MP3Track created: 320 kbps
+WAVTrack created: 96000Hz/24bit
+MP3Track created: 320 kbps
+WAVTrack created: 44100Hz/16bit
+MP3Track created: 320 kbps
+MP3Track created: 192 kbps
+WAVTrack created: 48000Hz/24bit
+MP3Track created: 320 kbps
+[INFO] Track library built: 15 tracks loaded
+
+Starting DJ performance simulation...
+BPM Tolerance: 5 BPM
+Auto Sync: disabled
+Cache Capacity: 10 slots (LRU policy)
+
+--- Processing Tracks ---
+TODO: Implement the DJ performance simulation workflow here.
+[System] Loading playlist: main_event
+[INFO] loading playlist: main_event
+Created playlist: main_event
+[MP3Track::load] Loading MP3: "Track 01" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 01"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+Added 'Track 01' to playlist 'main_event'
+[WAVTrack::load] loading WAV:"Track 03" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 37044000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 03"
+  ΓåÆ Estimated beats:427  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Track 03' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 05" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 05"
+  ΓåÆEstimated beats:475  ΓåÆCompression precision factor:0.6
+
+Added 'Track 05' to playlist 'main_event'
+[WAVTrack::load] loading WAV:"Track 07" at 48000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 72000000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 07"
+  ΓåÆ Estimated beats:520  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Track 07' to playlist 'main_event'
+[WAVTrack::load] loading WAV:"Track 09" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 155520000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 09"
+  ΓåÆ Estimated beats:576  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Track 09' to playlist 'main_event'
+[WAVTrack::load] loading WAV:"Track 11" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 51156000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 11"
+  ΓåÆ Estimated beats:628  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Track 11' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 13" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 13"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:0.6
+
+Added 'Track 13' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 15" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 15"
+  ΓåÆEstimated beats:742  ΓåÆCompression precision factor:1
+
+Added 'Track 15' to playlist 'main_event'
+[WAVTrack::load] loading WAV:"Track 14" at 48000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 92160000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 14"
+  ΓåÆ Estimated beats:704  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Track 14' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 12" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 12"
+  ΓåÆEstimated beats:650  ΓåÆCompression precision factor:1
+
+Added 'Track 12' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 10" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 10"
+  ΓåÆEstimated beats:597  ΓåÆCompression precision factor:1
+
+Added 'Track 10' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 08" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 08"
+  ΓåÆEstimated beats:541  ΓåÆCompression precision factor:1
+
+Added 'Track 08' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 06" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 06"
+  ΓåÆEstimated beats:496  ΓåÆCompression precision factor:1
+
+Added 'Track 06' to playlist 'main_event'
+[WAVTrack::load] loading WAV:"Track 04" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 38808000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 04"
+  ΓåÆ Estimated beats:447  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Track 04' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 02" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 02"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+Added 'Track 02' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 01" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 01"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+Added 'Track 01' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 05" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 05"
+  ΓåÆEstimated beats:475  ΓåÆCompression precision factor:0.6
+
+Added 'Track 05' to playlist 'main_event'
+[WAVTrack::load] loading WAV:"Track 09" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 155520000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 09"
+  ΓåÆ Estimated beats:576  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Track 09' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 13" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 13"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:0.6
+
+Added 'Track 13' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 02" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 02"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+Added 'Track 02' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 06" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 06"
+  ΓåÆEstimated beats:496  ΓåÆCompression precision factor:1
+
+Added 'Track 06' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 10" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 10"
+  ΓåÆEstimated beats:597  ΓåÆCompression precision factor:1
+
+Added 'Track 10' to playlist 'main_event'
+[WAVTrack::load] loading WAV:"Track 14" at 48000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 92160000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 14"
+  ΓåÆ Estimated beats:704  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Track 14' to playlist 'main_event'
+[WAVTrack::load] loading WAV:"Track 03" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 37044000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 03"
+  ΓåÆ Estimated beats:427  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Track 03' to playlist 'main_event'
+[WAVTrack::load] loading WAV:"Track 07" at 48000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 72000000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 07"
+  ΓåÆ Estimated beats:520  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Track 07' to playlist 'main_event'
+[WAVTrack::load] loading WAV:"Track 11" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 51156000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 11"
+  ΓåÆ Estimated beats:628  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Track 11' to playlist 'main_event'
+[MP3Track::load] Loading MP3: "Track 15" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 15"
+  ΓåÆEstimated beats:742  ΓåÆCompression precision factor:1
+
+Added 'Track 15' to playlist 'main_event'
+[INFO] Playlist Loaded:main_event(0 tracks)
+
+-- Processing: Track 15 --
+[System] Loading track 'Track 15' to controller...
+[MP3Track::load] Loading MP3: "Track 15" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 15"
+  ΓåÆEstimated beats:742  ΓåÆCompression precision factor:1
+
+
+=== Cache Status ===
+[LRUCache] Status: 1/10 slots used
+  Slot 0: Track 15 (last access: 1)
+  Slot 1: [EMPTY]
+  Slot 2: [EMPTY]
+  Slot 3: [EMPTY]
+  Slot 4: [EMPTY]
+  Slot 5: [EMPTY]
+  Slot 6: [EMPTY]
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 15
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Track 15" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 15"
+  ΓåÆEstimated beats:742  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Track 15' is now loaded on deck 0
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 15
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 11 --
+[System] Loading track 'Track 11' to controller...
+[WAVTrack::load] loading WAV:"Track 11" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 51156000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 11"
+  ΓåÆ Estimated beats:628  ΓåÆ Precision factor: 1 (uncompressed audio)
+
+=== Cache Status ===
+[LRUCache] Status: 2/10 slots used
+  Slot 0: Track 15 (last access: 2)
+  Slot 1: Track 11 (last access: 3)
+  Slot 2: [EMPTY]
+  Slot 3: [EMPTY]
+  Slot 4: [EMPTY]
+  Slot 5: [EMPTY]
+  Slot 6: [EMPTY]
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 11
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"Track 11" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 51156000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 11"
+  ΓåÆ Estimated beats:628  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Track 11' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 15)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 11
+Active Deck: 1
+===================
+
+-- Processing: Track 07 --
+[System] Loading track 'Track 07' to controller...
+[WAVTrack::load] loading WAV:"Track 07" at 48000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 72000000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 07"
+  ΓåÆ Estimated beats:520  ΓåÆ Precision factor: 1 (uncompressed audio)
+
+=== Cache Status ===
+[LRUCache] Status: 3/10 slots used
+  Slot 0: Track 15 (last access: 2)
+  Slot 1: Track 11 (last access: 4)
+  Slot 2: Track 07 (last access: 5)
+  Slot 3: [EMPTY]
+  Slot 4: [EMPTY]
+  Slot 5: [EMPTY]
+  Slot 6: [EMPTY]
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 07
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[WAVTrack::load] loading WAV:"Track 07" at 48000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 72000000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 07"
+  ΓåÆ Estimated beats:520  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Track 07' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 11)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 07
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 03 --
+[System] Loading track 'Track 03' to controller...
+[WAVTrack::load] loading WAV:"Track 03" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 37044000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 03"
+  ΓåÆ Estimated beats:427  ΓåÆ Precision factor: 1 (uncompressed audio)
+
+=== Cache Status ===
+[LRUCache] Status: 4/10 slots used
+  Slot 0: Track 15 (last access: 2)
+  Slot 1: Track 11 (last access: 4)
+  Slot 2: Track 07 (last access: 6)
+  Slot 3: Track 03 (last access: 7)
+  Slot 4: [EMPTY]
+  Slot 5: [EMPTY]
+  Slot 6: [EMPTY]
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 03
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"Track 03" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 37044000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 03"
+  ΓåÆ Estimated beats:427  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Track 03' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 07)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 03
+Active Deck: 1
+===================
+
+-- Processing: Track 14 --
+[System] Loading track 'Track 14' to controller...
+[WAVTrack::load] loading WAV:"Track 14" at 48000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 92160000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 14"
+  ΓåÆ Estimated beats:704  ΓåÆ Precision factor: 1 (uncompressed audio)
+
+=== Cache Status ===
+[LRUCache] Status: 5/10 slots used
+  Slot 0: Track 15 (last access: 2)
+  Slot 1: Track 11 (last access: 4)
+  Slot 2: Track 07 (last access: 6)
+  Slot 3: Track 03 (last access: 8)
+  Slot 4: Track 14 (last access: 9)
+  Slot 5: [EMPTY]
+  Slot 6: [EMPTY]
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 14
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[WAVTrack::load] loading WAV:"Track 14" at 48000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 92160000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 14"
+  ΓåÆ Estimated beats:704  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Track 14' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 03)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 14
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 10 --
+[System] Loading track 'Track 10' to controller...
+[MP3Track::load] Loading MP3: "Track 10" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 10"
+  ΓåÆEstimated beats:597  ΓåÆCompression precision factor:1
+
+
+=== Cache Status ===
+[LRUCache] Status: 6/10 slots used
+  Slot 0: Track 15 (last access: 2)
+  Slot 1: Track 11 (last access: 4)
+  Slot 2: Track 07 (last access: 6)
+  Slot 3: Track 03 (last access: 8)
+  Slot 4: Track 14 (last access: 10)
+  Slot 5: Track 10 (last access: 11)
+  Slot 6: [EMPTY]
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 10
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "Track 10" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 10"
+  ΓåÆEstimated beats:597  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Track 10' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 14)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 10
+Active Deck: 1
+===================
+
+-- Processing: Track 06 --
+[System] Loading track 'Track 06' to controller...
+[MP3Track::load] Loading MP3: "Track 06" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 06"
+  ΓåÆEstimated beats:496  ΓåÆCompression precision factor:1
+
+
+=== Cache Status ===
+[LRUCache] Status: 7/10 slots used
+  Slot 0: Track 15 (last access: 2)
+  Slot 1: Track 11 (last access: 4)
+  Slot 2: Track 07 (last access: 6)
+  Slot 3: Track 03 (last access: 8)
+  Slot 4: Track 14 (last access: 10)
+  Slot 5: Track 10 (last access: 12)
+  Slot 6: Track 06 (last access: 13)
+  Slot 7: [EMPTY]
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 06
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Track 06" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 06"
+  ΓåÆEstimated beats:496  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Track 06' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 10)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 06
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 02 --
+[System] Loading track 'Track 02' to controller...
+[MP3Track::load] Loading MP3: "Track 02" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 02"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+
+=== Cache Status ===
+[LRUCache] Status: 8/10 slots used
+  Slot 0: Track 15 (last access: 2)
+  Slot 1: Track 11 (last access: 4)
+  Slot 2: Track 07 (last access: 6)
+  Slot 3: Track 03 (last access: 8)
+  Slot 4: Track 14 (last access: 10)
+  Slot 5: Track 10 (last access: 12)
+  Slot 6: Track 06 (last access: 14)
+  Slot 7: Track 02 (last access: 15)
+  Slot 8: [EMPTY]
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 02
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "Track 02" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 02"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Track 02' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 06)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 02
+Active Deck: 1
+===================
+
+-- Processing: Track 13 --
+[System] Loading track 'Track 13' to controller...
+[MP3Track::load] Loading MP3: "Track 13" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 13"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:0.6
+
+
+=== Cache Status ===
+[LRUCache] Status: 9/10 slots used
+  Slot 0: Track 15 (last access: 2)
+  Slot 1: Track 11 (last access: 4)
+  Slot 2: Track 07 (last access: 6)
+  Slot 3: Track 03 (last access: 8)
+  Slot 4: Track 14 (last access: 10)
+  Slot 5: Track 10 (last access: 12)
+  Slot 6: Track 06 (last access: 14)
+  Slot 7: Track 02 (last access: 16)
+  Slot 8: Track 13 (last access: 17)
+  Slot 9: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 13
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Track 13" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 13"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:0.6
+
+[Load Complete] 'Track 13' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 02)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 13
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 09 --
+[System] Loading track 'Track 09' to controller...
+[WAVTrack::load] loading WAV:"Track 09" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 155520000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 09"
+  ΓåÆ Estimated beats:576  ΓåÆ Precision factor: 1 (uncompressed audio)
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 15 (last access: 2)
+  Slot 1: Track 11 (last access: 4)
+  Slot 2: Track 07 (last access: 6)
+  Slot 3: Track 03 (last access: 8)
+  Slot 4: Track 14 (last access: 10)
+  Slot 5: Track 10 (last access: 12)
+  Slot 6: Track 06 (last access: 14)
+  Slot 7: Track 02 (last access: 16)
+  Slot 8: Track 13 (last access: 18)
+  Slot 9: Track 09 (last access: 19)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 09
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"Track 09" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 155520000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 09"
+  ΓåÆ Estimated beats:576  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Track 09' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 13)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 09
+Active Deck: 1
+===================
+
+-- Processing: Track 05 --
+[System] Loading track 'Track 05' to controller...
+[MP3Track::load] Loading MP3: "Track 05" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 05"
+  ΓåÆEstimated beats:475  ΓåÆCompression precision factor:0.6
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 05 (last access: 21)
+  Slot 1: Track 11 (last access: 4)
+  Slot 2: Track 07 (last access: 6)
+  Slot 3: Track 03 (last access: 8)
+  Slot 4: Track 14 (last access: 10)
+  Slot 5: Track 10 (last access: 12)
+  Slot 6: Track 06 (last access: 14)
+  Slot 7: Track 02 (last access: 16)
+  Slot 8: Track 13 (last access: 18)
+  Slot 9: Track 09 (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 05
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Track 05" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 05"
+  ΓåÆEstimated beats:475  ΓåÆCompression precision factor:0.6
+
+[Load Complete] 'Track 05' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 09)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 05
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 01 --
+[System] Loading track 'Track 01' to controller...
+[MP3Track::load] Loading MP3: "Track 01" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 01"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 05 (last access: 22)
+  Slot 1: Track 01 (last access: 23)
+  Slot 2: Track 07 (last access: 6)
+  Slot 3: Track 03 (last access: 8)
+  Slot 4: Track 14 (last access: 10)
+  Slot 5: Track 10 (last access: 12)
+  Slot 6: Track 06 (last access: 14)
+  Slot 7: Track 02 (last access: 16)
+  Slot 8: Track 13 (last access: 18)
+  Slot 9: Track 09 (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 01
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "Track 01" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 01"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Track 01' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 05)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 01
+Active Deck: 1
+===================
+
+-- Processing: Track 02 --
+[System] Loading track 'Track 02' to controller...
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 05 (last access: 22)
+  Slot 1: Track 01 (last access: 24)
+  Slot 2: Track 07 (last access: 6)
+  Slot 3: Track 03 (last access: 8)
+  Slot 4: Track 14 (last access: 10)
+  Slot 5: Track 10 (last access: 12)
+  Slot 6: Track 06 (last access: 14)
+  Slot 7: Track 02 (last access: 25)
+  Slot 8: Track 13 (last access: 18)
+  Slot 9: Track 09 (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 02
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Track 02" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 02"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Track 02' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 01)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 02
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 04 --
+[System] Loading track 'Track 04' to controller...
+[WAVTrack::load] loading WAV:"Track 04" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 38808000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 04"
+  ΓåÆ Estimated beats:447  ΓåÆ Precision factor: 1 (uncompressed audio)
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 05 (last access: 22)
+  Slot 1: Track 01 (last access: 24)
+  Slot 2: Track 04 (last access: 27)
+  Slot 3: Track 03 (last access: 8)
+  Slot 4: Track 14 (last access: 10)
+  Slot 5: Track 10 (last access: 12)
+  Slot 6: Track 06 (last access: 14)
+  Slot 7: Track 02 (last access: 26)
+  Slot 8: Track 13 (last access: 18)
+  Slot 9: Track 09 (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 04
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"Track 04" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 38808000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 04"
+  ΓåÆ Estimated beats:447  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Track 04' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 02)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 04
+Active Deck: 1
+===================
+
+-- Processing: Track 06 --
+[System] Loading track 'Track 06' to controller...
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 05 (last access: 22)
+  Slot 1: Track 01 (last access: 24)
+  Slot 2: Track 04 (last access: 28)
+  Slot 3: Track 03 (last access: 8)
+  Slot 4: Track 14 (last access: 10)
+  Slot 5: Track 10 (last access: 12)
+  Slot 6: Track 06 (last access: 29)
+  Slot 7: Track 02 (last access: 26)
+  Slot 8: Track 13 (last access: 18)
+  Slot 9: Track 09 (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 06
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Track 06" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 06"
+  ΓåÆEstimated beats:496  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Track 06' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 04)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 06
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 08 --
+[System] Loading track 'Track 08' to controller...
+[MP3Track::load] Loading MP3: "Track 08" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 08"
+  ΓåÆEstimated beats:541  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 05 (last access: 22)
+  Slot 1: Track 01 (last access: 24)
+  Slot 2: Track 04 (last access: 28)
+  Slot 3: Track 08 (last access: 31)
+  Slot 4: Track 14 (last access: 10)
+  Slot 5: Track 10 (last access: 12)
+  Slot 6: Track 06 (last access: 30)
+  Slot 7: Track 02 (last access: 26)
+  Slot 8: Track 13 (last access: 18)
+  Slot 9: Track 09 (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 08
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "Track 08" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 08"
+  ΓåÆEstimated beats:541  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Track 08' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 06)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 08
+Active Deck: 1
+===================
+
+-- Processing: Track 10 --
+[System] Loading track 'Track 10' to controller...
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 05 (last access: 22)
+  Slot 1: Track 01 (last access: 24)
+  Slot 2: Track 04 (last access: 28)
+  Slot 3: Track 08 (last access: 32)
+  Slot 4: Track 14 (last access: 10)
+  Slot 5: Track 10 (last access: 33)
+  Slot 6: Track 06 (last access: 30)
+  Slot 7: Track 02 (last access: 26)
+  Slot 8: Track 13 (last access: 18)
+  Slot 9: Track 09 (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 10
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Track 10" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 10"
+  ΓåÆEstimated beats:597  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Track 10' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 08)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 10
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 12 --
+[System] Loading track 'Track 12' to controller...
+[MP3Track::load] Loading MP3: "Track 12" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 12"
+  ΓåÆEstimated beats:650  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 05 (last access: 22)
+  Slot 1: Track 01 (last access: 24)
+  Slot 2: Track 04 (last access: 28)
+  Slot 3: Track 08 (last access: 32)
+  Slot 4: Track 12 (last access: 35)
+  Slot 5: Track 10 (last access: 34)
+  Slot 6: Track 06 (last access: 30)
+  Slot 7: Track 02 (last access: 26)
+  Slot 8: Track 13 (last access: 18)
+  Slot 9: Track 09 (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 12
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "Track 12" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 12"
+  ΓåÆEstimated beats:650  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Track 12' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 10)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 12
+Active Deck: 1
+===================
+
+-- Processing: Track 14 --
+[System] Loading track 'Track 14' to controller...
+[WAVTrack::load] loading WAV:"Track 14" at 48000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 92160000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 14"
+  ΓåÆ Estimated beats:704  ΓåÆ Precision factor: 1 (uncompressed audio)
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 05 (last access: 22)
+  Slot 1: Track 01 (last access: 24)
+  Slot 2: Track 04 (last access: 28)
+  Slot 3: Track 08 (last access: 32)
+  Slot 4: Track 12 (last access: 36)
+  Slot 5: Track 10 (last access: 34)
+  Slot 6: Track 06 (last access: 30)
+  Slot 7: Track 02 (last access: 26)
+  Slot 8: Track 14 (last access: 37)
+  Slot 9: Track 09 (last access: 20)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 14
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[WAVTrack::load] loading WAV:"Track 14" at 48000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 92160000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 14"
+  ΓåÆ Estimated beats:704  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Track 14' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 12)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 14
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 15 --
+[System] Loading track 'Track 15' to controller...
+[MP3Track::load] Loading MP3: "Track 15" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 15"
+  ΓåÆEstimated beats:742  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 05 (last access: 22)
+  Slot 1: Track 01 (last access: 24)
+  Slot 2: Track 04 (last access: 28)
+  Slot 3: Track 08 (last access: 32)
+  Slot 4: Track 12 (last access: 36)
+  Slot 5: Track 10 (last access: 34)
+  Slot 6: Track 06 (last access: 30)
+  Slot 7: Track 02 (last access: 26)
+  Slot 8: Track 14 (last access: 38)
+  Slot 9: Track 15 (last access: 39)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 15
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "Track 15" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 15"
+  ΓåÆEstimated beats:742  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Track 15' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 14)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 15
+Active Deck: 1
+===================
+
+-- Processing: Track 13 --
+[System] Loading track 'Track 13' to controller...
+[MP3Track::load] Loading MP3: "Track 13" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 13"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:0.6
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 13 (last access: 41)
+  Slot 1: Track 01 (last access: 24)
+  Slot 2: Track 04 (last access: 28)
+  Slot 3: Track 08 (last access: 32)
+  Slot 4: Track 12 (last access: 36)
+  Slot 5: Track 10 (last access: 34)
+  Slot 6: Track 06 (last access: 30)
+  Slot 7: Track 02 (last access: 26)
+  Slot 8: Track 14 (last access: 38)
+  Slot 9: Track 15 (last access: 40)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 13
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Track 13" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 13"
+  ΓåÆEstimated beats:682  ΓåÆCompression precision factor:0.6
+
+[Load Complete] 'Track 13' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 15)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 13
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 11 --
+[System] Loading track 'Track 11' to controller...
+[WAVTrack::load] loading WAV:"Track 11" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 51156000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 11"
+  ΓåÆ Estimated beats:628  ΓåÆ Precision factor: 1 (uncompressed audio)
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 13 (last access: 42)
+  Slot 1: Track 11 (last access: 43)
+  Slot 2: Track 04 (last access: 28)
+  Slot 3: Track 08 (last access: 32)
+  Slot 4: Track 12 (last access: 36)
+  Slot 5: Track 10 (last access: 34)
+  Slot 6: Track 06 (last access: 30)
+  Slot 7: Track 02 (last access: 26)
+  Slot 8: Track 14 (last access: 38)
+  Slot 9: Track 15 (last access: 40)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 11
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"Track 11" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 51156000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 11"
+  ΓåÆ Estimated beats:628  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Track 11' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 13)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 11
+Active Deck: 1
+===================
+
+-- Processing: Track 09 --
+[System] Loading track 'Track 09' to controller...
+[WAVTrack::load] loading WAV:"Track 09" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 155520000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 09"
+  ΓåÆ Estimated beats:576  ΓåÆ Precision factor: 1 (uncompressed audio)
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 13 (last access: 42)
+  Slot 1: Track 11 (last access: 44)
+  Slot 2: Track 04 (last access: 28)
+  Slot 3: Track 08 (last access: 32)
+  Slot 4: Track 12 (last access: 36)
+  Slot 5: Track 10 (last access: 34)
+  Slot 6: Track 06 (last access: 30)
+  Slot 7: Track 09 (last access: 45)
+  Slot 8: Track 14 (last access: 38)
+  Slot 9: Track 15 (last access: 40)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 09
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[WAVTrack::load] loading WAV:"Track 09" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 155520000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 09"
+  ΓåÆ Estimated beats:576  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Track 09' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 11)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 09
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 07 --
+[System] Loading track 'Track 07' to controller...
+[WAVTrack::load] loading WAV:"Track 07" at 48000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 72000000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 07"
+  ΓåÆ Estimated beats:520  ΓåÆ Precision factor: 1 (uncompressed audio)
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 13 (last access: 42)
+  Slot 1: Track 11 (last access: 44)
+  Slot 2: Track 07 (last access: 47)
+  Slot 3: Track 08 (last access: 32)
+  Slot 4: Track 12 (last access: 36)
+  Slot 5: Track 10 (last access: 34)
+  Slot 6: Track 06 (last access: 30)
+  Slot 7: Track 09 (last access: 46)
+  Slot 8: Track 14 (last access: 38)
+  Slot 9: Track 15 (last access: 40)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 07
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"Track 07" at 48000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 72000000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 07"
+  ΓåÆ Estimated beats:520  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Track 07' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 09)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 07
+Active Deck: 1
+===================
+
+-- Processing: Track 05 --
+[System] Loading track 'Track 05' to controller...
+[MP3Track::load] Loading MP3: "Track 05" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 05"
+  ΓåÆEstimated beats:475  ΓåÆCompression precision factor:0.6
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 13 (last access: 42)
+  Slot 1: Track 11 (last access: 44)
+  Slot 2: Track 07 (last access: 48)
+  Slot 3: Track 08 (last access: 32)
+  Slot 4: Track 12 (last access: 36)
+  Slot 5: Track 10 (last access: 34)
+  Slot 6: Track 05 (last access: 49)
+  Slot 7: Track 09 (last access: 46)
+  Slot 8: Track 14 (last access: 38)
+  Slot 9: Track 15 (last access: 40)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 05
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Track 05" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 05"
+  ΓåÆEstimated beats:475  ΓåÆCompression precision factor:0.6
+
+[Load Complete] 'Track 05' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 07)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 05
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Track 03 --
+[System] Loading track 'Track 03' to controller...
+[WAVTrack::load] loading WAV:"Track 03" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 37044000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 03"
+  ΓåÆ Estimated beats:427  ΓåÆ Precision factor: 1 (uncompressed audio)
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 13 (last access: 42)
+  Slot 1: Track 11 (last access: 44)
+  Slot 2: Track 07 (last access: 48)
+  Slot 3: Track 03 (last access: 51)
+  Slot 4: Track 12 (last access: 36)
+  Slot 5: Track 10 (last access: 34)
+  Slot 6: Track 05 (last access: 50)
+  Slot 7: Track 09 (last access: 46)
+  Slot 8: Track 14 (last access: 38)
+  Slot 9: Track 15 (last access: 40)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 03
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"Track 03" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 37044000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Track 03"
+  ΓåÆ Estimated beats:427  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Track 03' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Track 05)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Track 03
+Active Deck: 1
+===================
+
+-- Processing: Track 01 --
+[System] Loading track 'Track 01' to controller...
+[MP3Track::load] Loading MP3: "Track 01" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 01"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 10/10 slots used
+  Slot 0: Track 13 (last access: 42)
+  Slot 1: Track 11 (last access: 44)
+  Slot 2: Track 07 (last access: 48)
+  Slot 3: Track 03 (last access: 52)
+  Slot 4: Track 12 (last access: 36)
+  Slot 5: Track 01 (last access: 53)
+  Slot 6: Track 05 (last access: 50)
+  Slot 7: Track 09 (last access: 46)
+  Slot 8: Track 14 (last access: 38)
+  Slot 9: Track 15 (last access: 40)
+====================
+[System] Delegating track transfer to MixingEngineService for: Track 01
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Track 01" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Track 01"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Track 01' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Track 03)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Track 01
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+=== DJ Session Summary ===
+Session: Interactive Session
+Tracks processed: 27
+Cache hits: 3
+Cache misses: 24
+Cache evictions: 14
+Deck A loads: 14
+Deck B loads: 13
+Transitions: 27
+Errors: 0
+=== Session Complete ===
+Session cancelled by user or all playlists played. 
+============= INTERACTIVE SESSION ENDED =============
+
+Shutting down DJ Session System: Interactive Session
+[MixingEngineService] Cleaning up decks...

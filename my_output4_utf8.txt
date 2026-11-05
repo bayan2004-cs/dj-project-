@@ -1,0 +1,461 @@
+﻿
+============= RUNNING INTERACTIVE SOFTWARE =============
+Created playlist: 
+[MixingEngineService] Initialized with 2 empty decks.
+DJ Session System initialized: Interactive Session
+=== DJ Controller System ===
+Starting interactive DJ session...
+Loading configuration from: bin/dj_config.txt
+Parsed config file: 10 tracks found, 2 playlists found
+Configuration loaded successfully.
+BPM Tolerance: 5 BPM
+Auto Sync: disabled
+Cache Size: 3 slots
+MP3Track created: 320 kbps
+WAVTrack created: 96000Hz/24bit
+MP3Track created: 192 kbps
+WAVTrack created: 44100Hz/16bit
+MP3Track created: 320 kbps
+MP3Track created: 320 kbps
+WAVTrack created: 44100Hz/16bit
+MP3Track created: 320 kbps
+MP3Track created: 192 kbps
+WAVTrack created: 48000Hz/24bit
+[INFO] Track library built: 10 tracks loaded
+
+Starting DJ performance simulation...
+BPM Tolerance: 5 BPM
+Auto Sync: disabled
+Cache Capacity: 3 slots (LRU policy)
+
+--- Processing Tracks ---
+TODO: Implement the DJ performance simulation workflow here.
+[System] Loading playlist: main_mix
+[INFO] loading playlist: main_mix
+Created playlist: main_mix
+[MP3Track::load] Loading MP3: "Opener" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Opener"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+Added 'Opener' to playlist 'main_mix'
+[WAVTrack::load] loading WAV:"The Bridge" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 37044000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "The Bridge"
+  ΓåÆ Estimated beats:427  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'The Bridge' to playlist 'main_mix'
+[MP3Track::load] Loading MP3: "The Middle" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "The Middle"
+  ΓåÆEstimated beats:384  ΓåÆCompression precision factor:1
+
+Added 'The Middle' to playlist 'main_mix'
+[MP3Track::load] Loading MP3: "The Drop" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "The Drop"
+  ΓåÆEstimated beats:469  ΓåÆCompression precision factor:1
+
+Added 'The Drop' to playlist 'main_mix'
+[WAVTrack::load] loading WAV:"Peak Time" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 172800000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Peak Time"
+  ΓåÆ Estimated beats:625  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Peak Time' to playlist 'main_mix'
+[MP3Track::load] Loading MP3: "Closer" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Closer"
+  ΓåÆEstimated beats:541  ΓåÆCompression precision factor:0.6
+
+Added 'Closer' to playlist 'main_mix'
+[INFO] Playlist Loaded:main_mix(0 tracks)
+
+-- Processing: Closer --
+[System] Loading track 'Closer' to controller...
+[MP3Track::load] Loading MP3: "Closer" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Closer"
+  ΓåÆEstimated beats:541  ΓåÆCompression precision factor:0.6
+
+
+=== Cache Status ===
+[LRUCache] Status: 1/3 slots used
+  Slot 0: Closer (last access: 1)
+  Slot 1: [EMPTY]
+  Slot 2: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Closer
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "Closer" at 192 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Closer"
+  ΓåÆEstimated beats:541  ΓåÆCompression precision factor:0.6
+
+[Load Complete] 'Closer' is now loaded on deck 0
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Closer
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Peak Time --
+[System] Loading track 'Peak Time' to controller...
+[WAVTrack::load] loading WAV:"Peak Time" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 172800000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Peak Time"
+  ΓåÆ Estimated beats:625  ΓåÆ Precision factor: 1 (uncompressed audio)
+
+=== Cache Status ===
+[LRUCache] Status: 2/3 slots used
+  Slot 0: Closer (last access: 2)
+  Slot 1: Peak Time (last access: 3)
+  Slot 2: [EMPTY]
+====================
+[System] Delegating track transfer to MixingEngineService for: Peak Time
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[WAVTrack::load] loading WAV:"Peak Time" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 172800000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Peak Time"
+  ΓåÆ Estimated beats:625  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Peak Time' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Closer)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Peak Time
+Active Deck: 1
+===================
+
+-- Processing: The Drop --
+[System] Loading track 'The Drop' to controller...
+[MP3Track::load] Loading MP3: "The Drop" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "The Drop"
+  ΓåÆEstimated beats:469  ΓåÆCompression precision factor:1
+
+
+=== Cache Status ===
+[LRUCache] Status: 3/3 slots used
+  Slot 0: Closer (last access: 2)
+  Slot 1: Peak Time (last access: 4)
+  Slot 2: The Drop (last access: 5)
+====================
+[System] Delegating track transfer to MixingEngineService for: The Drop
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "The Drop" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "The Drop"
+  ΓåÆEstimated beats:469  ΓåÆCompression precision factor:1
+
+[Load Complete] 'The Drop' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Peak Time)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: The Drop
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: The Middle --
+[System] Loading track 'The Middle' to controller...
+[MP3Track::load] Loading MP3: "The Middle" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "The Middle"
+  ΓåÆEstimated beats:384  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 3/3 slots used
+  Slot 0: The Middle (last access: 7)
+  Slot 1: Peak Time (last access: 4)
+  Slot 2: The Drop (last access: 6)
+====================
+[System] Delegating track transfer to MixingEngineService for: The Middle
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "The Middle" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "The Middle"
+  ΓåÆEstimated beats:384  ΓåÆCompression precision factor:1
+
+[Load Complete] 'The Middle' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (The Drop)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: The Middle
+Active Deck: 1
+===================
+
+-- Processing: The Bridge --
+[System] Loading track 'The Bridge' to controller...
+[WAVTrack::load] loading WAV:"The Bridge" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 37044000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "The Bridge"
+  ΓåÆ Estimated beats:427  ΓåÆ Precision factor: 1 (uncompressed audio)
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 3/3 slots used
+  Slot 0: The Middle (last access: 8)
+  Slot 1: The Bridge (last access: 9)
+  Slot 2: The Drop (last access: 6)
+====================
+[System] Delegating track transfer to MixingEngineService for: The Bridge
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[WAVTrack::load] loading WAV:"The Bridge" at 44100Hz/16bit (uncompressed)...
+  ΓåÆ Estimated file size: 37044000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "The Bridge"
+  ΓåÆ Estimated beats:427  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'The Bridge' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (The Middle)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: The Bridge
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: Opener --
+[System] Loading track 'Opener' to controller...
+[MP3Track::load] Loading MP3: "Opener" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Opener"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 3/3 slots used
+  Slot 0: The Middle (last access: 8)
+  Slot 1: The Bridge (last access: 10)
+  Slot 2: Opener (last access: 11)
+====================
+[System] Delegating track transfer to MixingEngineService for: Opener
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "Opener" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "Opener"
+  ΓåÆEstimated beats:400  ΓåÆCompression precision factor:1
+
+[Load Complete] 'Opener' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (The Bridge)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: Opener
+Active Deck: 1
+===================
+
+=== DJ Session Summary ===
+Session: Interactive Session
+Tracks processed: 6
+Cache hits: 0
+Cache misses: 6
+Cache evictions: 3
+Deck A loads: 3
+Deck B loads: 3
+Transitions: 6
+Errors: 0
+=== Session Complete ===
+[System] Loading playlist: short_set
+[INFO] loading playlist: short_set
+Created playlist: short_set
+[MP3Track::load] Loading MP3: "The Middle" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "The Middle"
+  ΓåÆEstimated beats:384  ΓåÆCompression precision factor:1
+
+Added 'The Middle' to playlist 'short_set'
+[MP3Track::load] Loading MP3: "The Drop" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "The Drop"
+  ΓåÆEstimated beats:469  ΓåÆCompression precision factor:1
+
+Added 'The Drop' to playlist 'short_set'
+[WAVTrack::load] loading WAV:"Peak Time" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 172800000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Peak Time"
+  ΓåÆ Estimated beats:625  ΓåÆ Precision factor: 1 (uncompressed audio)
+Added 'Peak Time' to playlist 'short_set'
+[INFO] Playlist Loaded:short_set(0 tracks)
+
+-- Processing: Peak Time --
+[System] Loading track 'Peak Time' to controller...
+[WAVTrack::load] loading WAV:"Peak Time" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 172800000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Peak Time"
+  ΓåÆ Estimated beats:625  ΓåÆ Precision factor: 1 (uncompressed audio)
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 3/3 slots used
+  Slot 0: Peak Time (last access: 13)
+  Slot 1: The Bridge (last access: 10)
+  Slot 2: Opener (last access: 12)
+====================
+[System] Delegating track transfer to MixingEngineService for: Peak Time
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[WAVTrack::load] loading WAV:"Peak Time" at 96000Hz/24bit (uncompressed)...
+  ΓåÆ Estimated file size: 172800000 bytes
+  ΓåÆ Fast Loading due to uncompressed format.
+[WAVTrack::analyze_beatgrid] Analyzing beat grid for: "Peak Time"
+  ΓåÆ Estimated beats:625  ΓåÆ Precision factor: 1 (uncompressed audio)
+[Load Complete] 'Peak Time' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (Opener)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: Peak Time
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+-- Processing: The Drop --
+[System] Loading track 'The Drop' to controller...
+[MP3Track::load] Loading MP3: "The Drop" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "The Drop"
+  ΓåÆEstimated beats:469  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 3/3 slots used
+  Slot 0: Peak Time (last access: 14)
+  Slot 1: The Drop (last access: 15)
+  Slot 2: Opener (last access: 12)
+====================
+[System] Delegating track transfer to MixingEngineService for: The Drop
+
+===loading track to deck===
+[Deck Switch] Target deck: 1
+[MP3Track::load] Loading MP3: "The Drop" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "The Drop"
+  ΓåÆEstimated beats:469  ΓåÆCompression precision factor:1
+
+[Load Complete] 'The Drop' is now loaded on deck 1
+[Unload] Unloading previous deck 0 (Peak Time)
+[Active Deck] Switched to deck 1
+
+=== Deck Status ===
+Deck 0: [EMPTY]
+Deck 1: The Drop
+Active Deck: 1
+===================
+
+-- Processing: The Middle --
+[System] Loading track 'The Middle' to controller...
+[MP3Track::load] Loading MP3: "The Middle" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "The Middle"
+  ΓåÆEstimated beats:384  ΓåÆCompression precision factor:1
+
+Reset called for pointer: 0
+
+=== Cache Status ===
+[LRUCache] Status: 3/3 slots used
+  Slot 0: Peak Time (last access: 14)
+  Slot 1: The Drop (last access: 16)
+  Slot 2: The Middle (last access: 17)
+====================
+[System] Delegating track transfer to MixingEngineService for: The Middle
+
+===loading track to deck===
+[Deck Switch] Target deck: 0
+[MP3Track::load] Loading MP3: "The Middle" at 320 kbps...
+  ΓåÆ Processing ID3 metadata (artist info, album art, etc.)...
+  ΓåÆ Decoding MP3 frames...
+  ΓåÆ Load complete.
+[MP3Track::analyze_beatgrid] Analyzing beat grid for: "The Middle"
+  ΓåÆEstimated beats:384  ΓåÆCompression precision factor:1
+
+[Load Complete] 'The Middle' is now loaded on deck 0
+[Unload] Unloading previous deck 1 (The Drop)
+[Active Deck] Switched to deck 0
+
+=== Deck Status ===
+Deck 0: The Middle
+Deck 1: [EMPTY]
+Active Deck: 0
+===================
+
+=== DJ Session Summary ===
+Session: Interactive Session
+Tracks processed: 9
+Cache hits: 0
+Cache misses: 9
+Cache evictions: 6
+Deck A loads: 5
+Deck B loads: 4
+Transitions: 9
+Errors: 0
+=== Session Complete ===
+Session cancelled by user or all playlists played. 
+============= INTERACTIVE SESSION ENDED =============
+
+Shutting down DJ Session System: Interactive Session
+[MixingEngineService] Cleaning up decks...
